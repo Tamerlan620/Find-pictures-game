@@ -3,7 +3,7 @@
 
 
 
-function Game({HandleClicktoActive,cards,activeCard,matched,letsStart,difficultOfGame,time,setTime}) {
+function Game({HandleClicktoActive,cards,activeCard,matched,letsStart,time}) {
     
     
 

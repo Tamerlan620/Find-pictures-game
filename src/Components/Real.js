@@ -5,7 +5,7 @@ import {shuffle} from 'lodash';
 
 
 
-function App() {
+function Real() {
     const [cards,setCard] = useState(shuffle([...Pictures,...Pictures]));
     const [activeCard,setActiveCard] = useState([]);
     const [matched,setMatched] = useState([])
@@ -48,27 +48,27 @@ function App() {
     )
 }
 
-export default App
+export default Real
 
 
 
-<div>
-{firstPage ? 
-    <StartNewGame
-    difficultOfGame={difficultOfGame}
-    setDifficultOfGame={setDifficultOfGame}
-    setFirstPage={setFirstPage}
-    setLetsStart={setLetsStart}
-    letsStart={letsStart}
-    setGameTime={setGameTime}
-      /> : 
-    <Game letsStart={letsStart} 
-    HandleClicktoActive={HandleClicktoActive} 
-    cards={cards} activeCard={activeCard} 
-    matched={matched} 
-    difficultOfGame={difficultOfGame}
-    time={time}
-    setTime={setTime}
-    />}
-   
-</div>
+// <>
+// {firstPage ?
+//     <StartNewGame
+//     difficultOfGame={difficultOfGame}
+//     setDifficultOfGame={setDifficultOfGame}
+//     setFirstPage={setFirstPage}
+//     setLetsStart={setLetsStart}
+//     letsStart={letsStart}
+//     setGameTime={setGameTime}
+//       /> :
+//     <Game letsStart={letsStart}
+//     HandleClicktoActive={HandleClicktoActive}
+//     cards={cards} activeCard={activeCard}
+//     matched={matched}
+//     difficultOfGame={difficultOfGame}
+//     time={time}
+//     setTime={setTime}
+//     />}
+//
+// </>
