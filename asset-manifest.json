@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Find-pictures-game/static/css/main.7bfc7efb.css",
-    "main.js": "/Find-pictures-game/static/js/main.00b07126.js",
+    "main.css": "/Find-pictures-game/static/css/main.64f869dd.css",
+    "main.js": "/Find-pictures-game/static/js/main.9b72d9b9.js",
     "static/media/image18.jpg": "/Find-pictures-game/static/media/image18.c67f4dda2c5c7ececa1a.jpg",
     "static/media/image7.jpg": "/Find-pictures-game/static/media/image7.bad3e76472829dc70d3e.jpg",
     "static/media/image0.jpg": "/Find-pictures-game/static/media/image0.fa8cfe1b778202f9064f.jpg",
@@ -21,11 +21,11 @@
     "static/media/image13.jpg": "/Find-pictures-game/static/media/image13.091f963fdd6ea65f264b.jpg",
     "static/media/image6.jpg": "/Find-pictures-game/static/media/image6.b76cb56c0ac002c168fd.jpg",
     "index.html": "/Find-pictures-game/index.html",
-    "main.7bfc7efb.css.map": "/Find-pictures-game/static/css/main.7bfc7efb.css.map",
-    "main.00b07126.js.map": "/Find-pictures-game/static/js/main.00b07126.js.map"
+    "main.64f869dd.css.map": "/Find-pictures-game/static/css/main.64f869dd.css.map",
+    "main.9b72d9b9.js.map": "/Find-pictures-game/static/js/main.9b72d9b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bfc7efb.css",
-    "static/js/main.00b07126.js"
+    "static/css/main.64f869dd.css",
+    "static/js/main.9b72d9b9.js"
   ]
 }
