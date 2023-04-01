@@ -8,12 +8,12 @@ function ManToMan_Start ({firstplayer,setfirstplayer,firstplayerscore,setfirstpl
         <>
             <div className="flex justify-around mb-5">
                 <div>
-                    <div className={`text-5xl text-center mb-4 font-bold ${Player ? "text-green-800" : "text-red-800"}`}>{firstplayer}</div>
+                    <div className={`text-5xl text-center mb-4 font-bold ${Player ? "text-green-800 ActivePlayer" : "text-red-800 PassivePlayer"}`}>{firstplayer}</div>
                     <div className="text-4xl font-bold text-center">{firstplayerscore}</div>
                 </div>
                 <img className="w-20 h-20" src="https://cdn-icons-png.flaticon.com/512/8989/8989489.png" alt=""/>
                 <div>
-                    <div className={`text-5xl text-center mb-4 font-bold ${Player ? "text-red-800" : "text-green-800"}`}>{secondplayer}</div>
+                    <div className={`text-5xl text-center mb-4 font-bold ${Player ? "text-red-800 PassivePlayer" : "text-green-800 ActivePlayer"}`}>{secondplayer}</div>
                     <div className="text-4xl font-bold text-center">{secondplayerscore}</div>
                 </div>
             </div>
