@@ -122,8 +122,8 @@ function App() {
         <>
 
             {activePage==1 &&
-                <div className='flex justify-center items-center flex-col mt-40 mb-6'>
-                <h1 className='text-red-500 text-5xl font-extrabold mb-3'>Eyni şəkili tap oyununa xoş gəlmisiniz</h1>
+                <div className='flex justify-center items-center flex-col md:mt-40 mb-6'>
+                <h1 className='text-red-500 sm:text-4xl text-2xl md:text-5xl font-extrabold mb-3 text-center'>Eyni şəkili tap oyununa xoş gəlmisiniz</h1>
                 <input onClick={() => setsingleoroposite("singleGame")}
                        className={`buttonstoGame border-2 my-2 py-1 px-4 rounded-xl border-neutral-900 bg-yellow-500 cursor-pointer ${singleoroposite ==="singleGame" ? "bg-green-500" : ""}`}
                        type="button" value="Single Game"/>

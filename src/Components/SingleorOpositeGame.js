@@ -6,16 +6,16 @@ function SingleorOpositeGame({setsingleoroposite,setActivePage,firstplayer,setfi
     return(
 
         <>
-            <div className='flex justify-center items-center flex-col'>
-                <div className="flex">
-                    <div>
-                    <div className="text-2xl pl-9 mb-1">Player 1</div>
-                    <input onChange={(e=>{setfirstplayer(e.target.value)})} className='w-64 rounded-xl border-0 px-3 h-10 outline-none mr-2' placeholder='Adınızı daxil edin' type="text" />
+            <div className='flex justify-center items-center flex-col w-full max-w-full'>
+                <div className="sm:flex max-w-full w-full md:w-fit d-sm-block">
+                    <div className="md:max-w-full md:w-full">
+                    <div className="text-center sm:w-64 ml-0 text-2xl mb-1 sm:text-4xl">Player 1</div>
+                    <input onChange={(e=>{setfirstplayer(e.target.value)})} className='max-w-full w-full sm:w-64 rounded-xl border-0 px-3 h-10 outline-none mr-2' placeholder='Adınızı daxil edin' type="text" />
                     </div>
-                    <img className="VSclass w-16 h-16" src="https://cdn-icons-png.flaticon.com/512/4049/4049075.png" alt=""/>
+                    <img className="VSclass w-16 h-16 m-auto sm:my-3 md:mr-2" src="https://cdn-icons-png.flaticon.com/512/4049/4049075.png" alt=""/>
                     <div>
-                    <div className="text-2xl pl-10 mb-1">Player 2</div>
-                    <input onChange={(e=>{setsecondplayer(e.target.value)})} className='w-64 rounded-xl border-0 px-3 h-10 outline-none ml-2' placeholder='Adınızı daxil edin' type="text" />
+                    <div className="text-center text-2xl mb-1 sm:text-4xl">Player 2</div>
+                    <input onChange={(e=>{setsecondplayer(e.target.value)})} className='max-w-full w-full sm:w-64 rounded-xl border-0 px-3 h-10 outline-none max-w-xs' placeholder='Adınızı daxil edin' type="text" />
                     </div>
                 </div>
 
