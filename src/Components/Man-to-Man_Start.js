@@ -6,13 +6,13 @@ function ManToMan_Start ({firstplayer,setfirstplayer,firstplayerscore,setfirstpl
                              }){
     return(
         <>
-            <div className="flex justify-around mb-5">
-                <div className="w-1/3">
+            <div className="mantomanstart flex justify-around mb-5">
+                <div className="players w-1/3">
                     <div className={`text-3xl sm:text-5xl text-center mb-4 font-bold ${Player ? "text-green-800 ActivePlayer" : "text-red-800 PassivePlayer"}`}>{firstplayer}</div>
                     <div className="text-4xl font-bold text-center">{firstplayerscore}</div>
                 </div>
-                <img className="w-20 h-20 m-auto" src="https://cdn-icons-png.flaticon.com/512/8989/8989489.png" alt=""/>
-                <div className="w-1/3">
+                <img className="playersimg w-20 h-20 m-auto w-1/3" src="https://cdn-icons-png.flaticon.com/512/8989/8989489.png" alt=""/>
+                <div className="players md:w-1/3">
                     <div className={`text-3xl sm:text-5xl text-center mb-4 font-bold ${Player ? "text-red-800 PassivePlayer" : "text-green-800 ActivePlayer"}`}>{secondplayer}</div>
                     <div className="text-4xl font-bold text-center">{secondplayerscore}</div>
                 </div>

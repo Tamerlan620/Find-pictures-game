@@ -18,6 +18,89 @@ body{
     height: calc((100vh - 290px) / 6);
     max-height: calc((100vw - 90px) / 6);
 }
+@media (max-height: 480px) {
+    .choose{
+        margin-top: 0!important;
+    }
+
+    .choose h1{
+        font-size: 1.5rem;
+    }
+    .card-outer{
+        perspective:1000px;
+        height: calc((100vh - 290px) / 3);
+        width: calc((100vh - 290px) / 3);
+        max-height: calc((100vw - 90px) / 4);
+        margin: auto;
+    }
+    .board{
+        max-width: 100%;
+        width: calc(100vh - 148px);
+    }
+    .welcome{
+        font-size: 30px;
+    }
+    .enterNames{
+        display: flex;
+    }
+
+    .score_names div{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .score_names input{
+        height: 30px;
+        width: 40%;
+        margin: auto;
+        width: 100%;
+    }
+
+    .score_names{
+        margin: auto;
+        text-align: center;
+    }
+
+    .cuppic{
+        margin-top: 30px;
+        width: 10%;
+        height: 10%;
+    }
+
+    .players div{
+        font-size: 16px;
+        margin-bottom: 0;
+        height: 38px;
+    }
+    .playersimg{
+        width: 50px;
+        height: 50px;
+    }
+    .mantomanstart{
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-height: 360px) {
+    .card-outer{
+        perspective:1000px;
+        height: calc((100vh - 260px) / 3);
+        width: calc((100vh - 260px) / 3);
+        max-height: calc((100vw - 90px) / 4);
+        margin: auto;
+    }
+    .board{
+        max-width: 100%;
+        width: calc(100vh - 148px);
+    }
+    .welcome{
+        font-size: 30px;
+    }
+    .choose{
+        margin-top: 0;
+    }
+}
 .card{
     border-radius: 5px;
     position: relative;

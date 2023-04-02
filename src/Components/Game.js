@@ -11,7 +11,7 @@ function Game({HandleClicktoActive,cards,activeCard,matched,letsStart,time}) {
 
     return(
         <div>
-            <div className='text-4xl text-center mb-4 font-bold text-green-800'>Hörmətli {letsStart}  oyun başladı</div>
+            <div className='welcome text-4xl text-center mb-4 font-bold text-green-800'>Hörmətli {letsStart}  oyun başladı</div>
             <div className="board">
                 {cards.map((card,index) => ( 
                     <div onClick={()=>HandleClicktoActive(index)} key={index} className= {`card-outer ${activeCard.indexOf(index)!== -1 || matched.indexOf(index)!== -1 ? 'active' : ''}`}  >
